@@ -1,0 +1,61 @@
+a = int(input("Nhập a: "));
+b = int(input("Nhập b: "));
+print("Tổng 2 số nguyên a, b: ", a + b);
+print("Tích 2 số nguyên a, b: ", a * b);
+print("Thương 2 số nguyên a, b: ", a / b);
+print("Hiệu 2 số nguyên a, b: ", a - b);
+
+s = "Hello World";
+print("Chuỗi cần lấy: ", s[2: 5]);
+
+chuoi = " Hello World ";
+print("Chuỗi sau khi xóa khoảng trắng:", chuoi.strip())
+print("Chuỗi in hoa:", chuoi.upper())
+print("Chuỗi in thường:", chuoi.lower())
+
+a = int(input("Nhập a:"));
+b = int(input("Nhập b:"));
+if a > b:
+  print("Hello World!");
+elif a == b:
+  print("YES");
+else:
+  print("NO");
+
+a = int(input("Nhập a:"));
+b = int(input("Nhập b:"));
+if a > b:
+  print("2");
+elif a == b:
+  print("1");
+else:
+  print("3");
+
+a = int(input("Nhập a:"));
+b = int(input("Nhập b:"));
+d = int(input("Nhập d:"));
+if a == b and b == d:
+  print("Hello World!");
+
+a = int(input("Nhập a:"));
+b = int(input("Nhập b:"));
+if a > b:
+  print('YES');
+else:
+  print('NO');
+
+a = int(input("Nhập a:"));
+b = int(input("Nhập b:"));
+if a > b:
+  print('A');
+elif a == b:
+  print('=');
+else:
+  print('B');
+
+a = int(input("Nhập a:"));
+b = int(input("Nhập b:"));
+c = int(input("Nhập c:"));
+d = int(input("Nhập d:"));
+if a == b or c == d:
+  print("Hello World!");
